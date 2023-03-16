@@ -14,5 +14,8 @@
     "@astrojs/rss": "^2.3.0",
     "astro": "^2.0.18",
     "preact": "^10.6.5"
+  },
+  "devDependencies": {
+    "remark-autolink-headings": "^7.0.1"
   }
 }
