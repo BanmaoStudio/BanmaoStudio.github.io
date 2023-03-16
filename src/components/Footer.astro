@@ -1,0 +1,18 @@
+---
+const platforms = ["Github", "Instagram", "Twitter", "LinkedIn"];
+const username = "BanmaoStudio";
+
+import Social from "./Social.astro";
+---
+
+<style>
+    footer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+</style>
+
+<footer>
+   {platforms.map(item => <Social platform={item} username={username} />)}
+</footer>
