@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 
+import Navigation from '../components/Navigation.astro';
+
 const pageTitle = "About Me";
 
 const identity = {
@@ -47,9 +49,7 @@ const student = false;
 
 	</head>
 	<body>
-        <a href="/">Home</a>
-        <a href="/blog">Blog</a>
-        <a href="/about/">About</a>
+        <Navigation />
 
         <h1>{pageTitle}</h1>
         <h2>... and my new Astro site!</h2>
